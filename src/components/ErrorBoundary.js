@@ -10,13 +10,10 @@ class ErrorBoundary extends React.Component {
   }
 
   static getDerivedStateFromError(error) {
-    // Biasanya digunakan oleh developer untuk menaruh fallback UI
-    return { hasError: true, message: error.message };
+     return { hasError: true, message: error.message };
   }
 
-  componentDidCatch(error) {
-    // meng-eksekusi pengiriman error ke sebuah error dashboard / handler seperti web service
-  }
+
 
   render() {
     if (this.state.hasError) {

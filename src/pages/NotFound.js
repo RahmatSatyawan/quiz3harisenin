@@ -1,4 +1,5 @@
 import React from "react";
+import ErrorBoundary from "../components/ErrorBoundary";
 
 const NotFound = () => {
   return (
@@ -13,6 +14,9 @@ const NotFound = () => {
             <p className="mb-8 text-center text-gray-500 md:text-lg">
               The page you’re looking for doesn’t exist.
             </p>
+            <section>
+              <ErrorBoundary />
+            </section>
             <a
               href="/"
               className="px-6 py-2 text-sm font-semibold text-blue-800 bg-blue-100"
@@ -20,7 +24,7 @@ const NotFound = () => {
               Go home
             </a>
           </div>
-          <div className="mt-4 w-3/4 mx-auto" >
+          <div className="mt-4 w-3/4 mx-auto">
             <img
               src="https://i.pinimg.com/originals/1e/3a/22/1e3a22cf10b9d125ff65e49b49d863bb.gif"
               alt="img"
