@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+ Your site is ready to be published at https://rahmatsatyawan.github.io/quiz3harisenin/
+
 ## Available Scripts
 
 In the project directory, you can run:
